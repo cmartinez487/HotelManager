@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{C4F7312F-C722-4D8A-880C-D205D531CDAF}|Default">
+  <MonoDevelop.Ide.ItemProperties.Presentation.HotelManager PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Properties/launchSettings.json">
+    <Files>
+      <File FileName="Properties/launchSettings.json" Line="21" Column="61" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HotelManager" expanded="True">
+            <Node name="Presentation" expanded="True">
+              <Node name="HotelManager" expanded="True">
+                <Node name="Properties" expanded="True" />
+                <Node name="appsettings.json" expanded="True" />
+                <Node name="Program.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

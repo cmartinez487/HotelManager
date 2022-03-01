@@ -1,0 +1,299 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/HotelManager/HotelManager.csproj": {}
+  },
+  "projects": {
+    "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Application/Application.csproj",
+        "packagesPath": "/Users/carlosrafael/.nuget/packages/",
+        "outputPath": "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/carlosrafael/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Domain/Domain.csproj": {
+                "projectPath": "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Domain/Domain.csproj",
+        "packagesPath": "/Users/carlosrafael/.nuget/packages/",
+        "outputPath": "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/carlosrafael/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/HotelManager/HotelManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/HotelManager/HotelManager.csproj",
+        "projectName": "HotelManager",
+        "projectPath": "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/HotelManager/HotelManager.csproj",
+        "packagesPath": "/Users/carlosrafael/.nuget/packages/",
+        "outputPath": "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/HotelManager/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/carlosrafael/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Application/Application.csproj": {
+                "projectPath": "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Application/Application.csproj"
+              },
+              "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Domain/Domain.csproj": {
+                "projectPath": "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Domain/Domain.csproj"
+              },
+              "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Persistence/Persistence.csproj": {
+                "projectPath": "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Persistence/Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Persistence/Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Persistence/Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Persistence/Persistence.csproj",
+        "packagesPath": "/Users/carlosrafael/.nuget/packages/",
+        "outputPath": "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/carlosrafael/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Domain/Domain.csproj": {
+                "projectPath": "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.2-mauipre.1.22054.8, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

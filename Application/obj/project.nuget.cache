@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bYEKkhsoU4ocHpCEqjKzRv4jWFUwZxxGqn/5T8QJem4VqHCBfX52p7HwvaXM54DfV16fXlUFn5NBJuGArKYpvg==",
+  "success": true,
+  "projectFilePath": "/Volumes/Viseryon/Repositorios/NetCore/HotelManager/Application/Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/carlosrafael/.nuget/packages/serilog/2.10.0/serilog.2.10.0.nupkg.sha512"
+  ],
+  "logs": []
+}
