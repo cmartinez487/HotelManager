@@ -67,3 +67,13 @@ CREATE procedure dbo.spCancelReservation
         update hotel set Capacidad = Capacidad+1 where Idhotel = @Idhotel
 end
 go
+
+-- Cancela reservax2
+CREATE procedure dbo.spCancelReservation
+    @IdReserva int,
+    @Idhotel int
+    as begin
+        update Reserva set Estado = 0 where IdReserva = @IdReserva
+        update hotel set Capacidad = Capacidad+1 where Idhotel = @Idhotel
+end
+go
